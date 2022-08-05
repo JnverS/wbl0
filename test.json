@@ -1,0 +1,38 @@
+{
+	"exemple.ru:nickname:MOBILE": {
+				"id": "ID:nickname:MOBILE",
+				"type": "SHOP",
+				"meta": {
+					"status": "failed",
+					"restricted": false,
+					"domain": "touchmehome.ru",
+					"comments": [],
+					"deviceType": "MOBILE"
+				},
+				"attributes": {
+					"category": "123",
+					"currency": "123",
+					"isbn": "123",
+					"name": "123",
+					"pictures": "123",
+					"price": "123",
+					"vendor": "123"
+				},
+				"cart": {
+					"currency": "",
+					"multiplyItemsPrice": false,
+					"prices": "",
+					"quantities": "",
+					"titles": "",
+					"totalPrices": "",
+					"urlTemplate": ""
+				},
+				"checkout": {
+					"placeOrderBtn": "",
+					"urlTemplate": ""
+				},
+				"mainPageTemplates": [],
+				"productPageSelector": "",
+				"urlTemplate": []
+			}
+	}
