@@ -1,1 +1,8 @@
-bind_addr = ":8080"
+addr = ":8080"
+
+database_url = "host=localhost user=admin password=root dbname=postgres sslmode=disable"
+
+nats_cluster_id = "test-cluster"
+nats_client_id = "client"
+durable = ""
+unsubscribe = false

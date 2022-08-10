@@ -1,14 +1,22 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contacts</title>
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <meta charset="UTF-8">
+    <title>Orders</title>
 </head>
 <body>
-<div class="mw6 center pa3 sans-serif">
-<h1 class="mb4">Contacts</h1>
-</div>
+    <div class="main">
+            <form action="/order/" method="get">
+                <input id="search-input" type="text" placeholder="Enter ID" name="search">
+                <button id="search-btn" type="button">Search</button>
+            </form>
+    </div>
+<script>
+    const input = document.getElementById("search-input");
+
+    document.getElementById("search-btn").onclick = function() {
+        window.location.href = '/order/' + input.value;
+    }
+</script>
 </body>
 </html>
